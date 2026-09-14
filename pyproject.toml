@@ -1,0 +1,20 @@
+[project]
+name = "coder"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ahmed munier", email = "cake9970@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "gradio>=6.27.0",
+    "openai>=3.13.0",
+]
+
+[project.scripts]
+coder = "coder:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
