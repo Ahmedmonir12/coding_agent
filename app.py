@@ -56,7 +56,6 @@ class ModelInterface:
                     chatbot = gr.Chatbot(
                         label="agent",
                         sanitize_html=False,
-                        render_markdown=False,
                         allow_tags=False,
                     )
 
